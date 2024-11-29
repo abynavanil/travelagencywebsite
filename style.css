@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid; */
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+.logo {
+    width: 100px;
+}
+
+header nav {
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, );
+    /* padding: 0.9rem 0; */
+    top: 0;
+    left: 0;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.container-2 {
+    text-align: center;
+}
+
+.content1 {
+    color: white;
+    font-size: 1rem;
+}
+
+.mod {
+    color: black;
+    font-weight: 500;
+
+}
+
+.flexservice {
+    display: flex;
+    margin-top: 90px;
+
+}
+
+
+.shadowbox {
+    background-color: grey;
+    opacity: 70%;
+    border-radius: 20px;
+    border: white 2px solid;
+    margin: 20px 100px 0 100px;
+
+}
+
+.servicebox {
+    height: 400px;
+    width: 300px;
+    background-color: grey;
+    opacity: 70%;
+    border-radius: 20px;
+    border: white 2px solid;
+    margin-right: 10px;
+    padding: 20px 0 20px 0;
+}
+
+.service {
+    text-align: left;
+
+
+}
+
+/* review */
+
+.review {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review1 {
+    border: solid white;
+    height: 150px;
+    width: 300px;
+    background-image: url(./images/Black\ Simple\ Review\ Instagram\ Post\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    position: absolute;
+    /* Make these divs positionable relative to their parent */
+    border: solid white;
+    height: 150px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    border-radius: 20px;
+
+}
+
+.review1.one {
+    top: 10%;
+    left: 20%;
+}
+
+.two {
+    background-image: url(./images/Black\ Simple\ Review\ Instagram\ Post\ \(2\).png);
+    top: 20%;
+    right: 35%;
+}
+
+.three {
+    background-image: url(./images/Black\ Simple\ Review\ Instagram\ Post\ \(3\).png);
+    bottom: 15%;
+    left: 5%;
+}
+
+.four {
+    background-image: url(./images/Black\ Simple\ Review\ Instagram\ Post\ \(4\).png);
+    bottom: 20%;
+    right: 20%;
+}
+
+.five {
+    background-image: url(./images/Black\ Simple\ Review\ Instagram\ Post\ \(5\).png);
+    top: 85%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.six {
+    background-image: url(./images/Black\ Simple\ Review\ Instagram\ Post\ \(6\).png);
+    top: 20%;
+    right: 5%;
+}
+
+.revhead {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+/* gsap */
+section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    z-index: 1;
+    font-size: 3em;
+    font-weight: 400;
+    font-family: "poppins", sans-serif;
+}
+
+.h2 {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    z-index: 1;
+    font-size: 2em;
+    font-weight: 400;
+    font-family: "poppins", sans-serif;
+}
