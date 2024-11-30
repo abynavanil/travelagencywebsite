@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- aosanimation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,16 +21,16 @@
             <img src="./images/—Pngtree—rugged heights black and white_17139597.png" alt="" class="logo">
             <ul>
                 <li>
-                    <a href="">About us</a>
+                    <a href="#aboutus">About us</a>
                 </li>
                 <li>
-                    <a href="">services</a>
+                    <a href="#services">services</a>
                 </li>
                 <li>
-                    <a href="">FEEDBACK</a>
+                    <a href="#feedback">FEEDBACK</a>
                 </li>
                 <li>
-                    <a href="">contact us</a>
+                    <a href="#contact">contact us</a>
                 </li>
                 <li>
                     <a class="search" href="">
@@ -39,6 +41,7 @@
                     <i class="fa-solid fa-bars"></i>
                 </li> -->
             </ul>
+
         </nav>
     </header>
     <section>
@@ -50,12 +53,13 @@
 
 
     </section>
-    <section>
+    <section id="aboutus">
         <div class="bg about"></div>
         <div class="container-2">
             <h1 class="h2">Have you ever felt the thrill of trekking amidst towering peaks?</h1>
-            <div class="shadowbox">
-                <span class="content1 mod">PeakQuest Adventures can provide the answer to this question by offering
+            <div class="shadowbox" data-aos="fade-up" data-aos-duration="3000">
+                <span class="content1 mod"><span id="highlight">PeakQuest Adventures</span> can provide the answer to
+                    this question by offering
                     expertly curated trekking experiences that allow adventurers to immerse themselves in the
                     awe-inspiring beauty of the Himalayan peaks.PeakQuest Adventure is a premier trekking and adventure
                     company dedicated to
@@ -70,12 +74,12 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="services">
         <div class="bg"></div>
         <div class="container-2 flex">
             <h1 class="h2"> If not, join us to explore serene trails and breathtaking vistas, we provide....</h1>
             <div class="flexservice">
-                <div class="servicebox">
+                <div class="servicebox" data-aos="zoom-in-left" data-aos-duration="1500">
                     <span class="content1 mod service"> <u>1. Guided Trekking Tours </u><br>
                         • Expert-led treks through popular and unexplored Himalayan trails. <br>
                         • Knowledgeable guides to ensure safety and enhance the trekking experience. <br> <br>
@@ -83,7 +87,7 @@
                         • Personalized itineraries tailored to individual or group preferences. <br>
                         • Options for beginners, intermediate, and advanced trekkers. <br></span>
                 </div>
-                <div class="servicebox">
+                <div class="servicebox" data-aos="zoom-in-left" data-aos-duration="1500">
                     <span class="content1 mod service">
                         <u>3. Gear and Equipment Rental</u> <br>
                         • High-quality trekking gear, including tents, sleeping bags, backpacks, and more. <br>
@@ -93,7 +97,7 @@
                         • Porter and mule services for carrying heavy loads. <br>
                     </span>
                 </div>
-                <div class="servicebox">
+                <div class="servicebox" data-aos="zoom-in-right" data-aos-duration="1500">
                     <span class="content1 mod service">
                         5. <u>Accommodation and Meals</u> <br>
                         • Comfortable stays in tents, campsites, or lodges along the trails. <br>
@@ -103,7 +107,7 @@
                         • Satellite communication and evacuation services if needed. <br>
                     </span>
                 </div>
-                <div class="servicebox">
+                <div class="servicebox" data-aos="zoom-in-right" data-aos-duration="1500">
                     <span class="content1 mod service">
                         7. <u>Cultural Experiences</u> <br>
                         • Visits to local villages, monasteries, and historical sites. <br>
@@ -117,24 +121,86 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="feedback">
         <div class="bg"></div>
         <div class="review">
-            <div class="review1 one"></div>
-            <div class="review1 two"></div>
-            <div class="review1 three"></div>
-            <div class="review1 four"></div>
-            <div class="review1 five"></div>
-            <div class="review1 six"></div>
+            <div class="review1 one" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            </div>
+            <div class="review1 two" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            </div>
+
+            <div class="review1 three" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            </div>
+
+            <div class="review1 four" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            </div>
+
+            <div class="review1 five" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            </div>
+
+            <div class="review1 six" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            </div>
+            <div class="revhead">
+                <h1 class="h2">Embark on an unforgettable adventure in the majestic Himalayas.</h1>
+
+            </div>
+    </section>
+    <section id="contact">
+        <div class="bg"></div>
+        <div class="email">
+            <div class="emailhead">
+                <h3>Want to be the first to know about the latest <span id="highlight">great</span> travel deals?</h3>
+                <h4>Receive our emails with tips for your trip</h4>
+            </div>
+            <div class="emailinput">
+                <input id="emailaddr" type="email" placeholder="enter your email address">
+                <button id="signup">Yes, i'm signing up ></button>
+                <h4>More than<span id="highlight"> 32,783</span> travelers have already gone before you.</h4>
+            </div>
         </div>
-        <div class="revhead">
-            <h1 class="h2">Embark on an unforgettable adventure in the majestic Himalayas.</h1>
+        <div class="hr"></div>
+
+        <div class="footer">
+
+            <div class="whoweare">
+                <h4>
+                    who we are
+                </h4>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Travel Blog</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Terms And Comdition</a></li>
+                </ul>
+            </div>
+
+            <div class="contactus">
+                <div class="profile">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i>98474839273</li>
+                        <li id="rarecase">87593037644</li>
+                        <li><i class="fa-regular fa-envelope"></i>peakquest@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="connectus">
+                    <h4>Connect US</h4>
+                    <ul id="icons">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-tiktok"></i></li>
+                    </ul>
+                </div>
+            </div>
+
 
         </div>
-    </section>
-    <section>
-        <div class="bg"></div>
-        <h1 class="h2">Experience nature like never before with our expert-guided treks.</h1>
+        <div class="hr"></div>
+        <h1 class="h2 end">Experience nature like never before with our expert-guided treks.</h1>
+
+
     </section>
 
 
@@ -189,5 +255,13 @@
         });
     });
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 
 </html>

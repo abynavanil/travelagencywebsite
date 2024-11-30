@@ -77,21 +77,23 @@ header ul a {
 
 
 .shadowbox {
-    background-color: grey;
-    opacity: 70%;
+    background-color: rgba(128, 128, 128, 0.7); /* Semi-transparent grey */
+
+    /* opacity: 70%; */
     border-radius: 20px;
-    border: white 2px solid;
+    border: white 1px solid;
     margin: 20px 100px 0 100px;
+    padding: 30px;
 
 }
 
 .servicebox {
     height: 400px;
     width: 300px;
-    background-color: grey;
-    opacity: 70%;
+    background-color: rgba(128, 128, 128, 0.7); /* Semi-transparent grey */
+    /* opacity: 70%; */
     border-radius: 20px;
-    border: white 2px solid;
+    border: white 1px solid;
     margin-right: 10px;
     padding: 20px 0 20px 0;
 }
@@ -158,8 +160,8 @@ header ul a {
 
 .five {
     background-image: url(./images/Black\ Simple\ Review\ Instagram\ Post\ \(5\).png);
-    top: 85%;
-    left: 45%;
+    top: 75%;
+    left: 35%;
     transform: translate(-50%, -50%);
 }
 
@@ -176,6 +178,71 @@ header ul a {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+}
+/* footer */
+.email{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 200px;
+    align-items: center;
+    /* background-color: white; */
+    /* opacity: 50%; */
+    border-radius: 20PX;
+    margin-bottom: 40px;
+    
+  
+
+   
+}
+#highlight{
+    color: azure;
+    font-weight: 700;
+    
+}
+.emailhead{
+    padding: 0 20px 0 20px;
+    color: rgb(210, 204, 204);
+}
+.emailhead h3{
+    font-size: 22px;
+}
+h4{
+    font-weight: 300;
+    color: white;
+
+}
+#emailaddr{
+height: 50px;
+width: 300px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border: 0px;
+outline: none;
+padding: 10px 20px;
+
+
+}
+.emailinput{
+    text-align: center;
+}
+#signup{
+height: 50px;
+width: 200px;
+margin-left: -8px;
+border: 0px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+word-spacing: 2px;
+font-weight: 700;
+background: linear-gradient(to right, #6a11cb, #2575fc);
+color: white;
+cursor: pointer;
+
+}
+#signup:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb); /* Reverse gradient on hover */
 }
 
 
@@ -217,4 +284,101 @@ h1 {
     font-size: 2em;
     font-weight: 400;
     font-family: "poppins", sans-serif;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+.cnt{
+    display: flex;
+}
+.contactus{
+    display: flex;
+    justify-content: space-between;
+
+}
+.connectus{
+    padding: 0 30px;
+    text-align: center;
+}
+#icons{
+display: flex;
+justify-content: space-between;
+text-decoration: none;
+list-style: none;
+font-size: 40px;
+}
+#icons li{
+    padding:20px;
+    color: white;
+    border-radius: 90px;
+    height: 100px;
+    width: 100px;
+}
+#icons li:hover{
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+.connectus h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.profile{
+    text-align: left;
+    
+
+}
+.profile ul{
+    list-style: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.profile h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.profile li i {
+    padding: 10px;
+}
+#rarecase{
+    padding-left: 36px;
+}
+.whoweare h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.whoweare li a {
+  
+    text-decoration: none;
+    color: white;
+    
+}
+.whoweare li{
+list-style: none;
+
+padding: 2px;
+}
+.hr{
+    background-color: grey;
+    height: 2px;
+    width: 600px;
+    margin: 0 50px;
+}
+.end{
+    font-size: 20px;
+    margin-top: 50px;
 }
